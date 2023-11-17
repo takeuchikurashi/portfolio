@@ -99,3 +99,18 @@ small {
 .modaal-close:hover:before {
   background: #666;
 }
+
+@media (max-width:768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+}
